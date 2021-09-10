@@ -39,7 +39,9 @@ namespace JEDB
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
-            bunifuPages1.SetPage("tabPage2");
+            AddData frmAddData = new AddData();
+            frmAddData.Show();
+            this.Hide();
         }
 
         private void bunifuImageButton2_Click(object sender, EventArgs e)
