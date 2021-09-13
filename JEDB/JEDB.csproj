@@ -182,6 +182,7 @@
     <Compile Include="Data_Access\DuePaymentLogic.cs" />
     <Compile Include="Data_Access\EncroachmentLogic.cs" />
     <Compile Include="Data_Access\EstateLogic.cs" />
+    <Compile Include="Data_Access\GetReportPath.cs" />
     <Compile Include="Data_Access\LeaseLogic.cs" />
     <Compile Include="Data_Access\LeaserLogic.cs" />
     <Compile Include="Data_Access\LoginActivityLogic.cs" />

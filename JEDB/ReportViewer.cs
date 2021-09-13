@@ -8,16 +8,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using JEDB.Data_Access;
 
 namespace JEDB
 {
     public partial class frmReportViewer : Form
     {
-        public frmReportViewer()
+        private readonly string _reportName;
+
+        public frmReportViewer(string reportName = "DebitNote.rpt")
         {
             InitializeComponent();
+            _reportName = reportName;
+            LoadReport();
+            
+        }
+
+        private void LoadReport()
+        {
+            string reportPath = GetReportPath.GetReportPathFromDB();
             ReportDocument cryRpt = new ReportDocument();
-            cryRpt.Load(@"C:\Users\amila\Desktop\JEDB\JEDB\Reports\DebitNote.rpt");
+            cryRpt.Load(@reportPath + _reportName);
             crystalReportViewerJEDB.ReportSource = cryRpt;
             crystalReportViewerJEDB.Refresh();
         }
