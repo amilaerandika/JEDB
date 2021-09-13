@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 15, 17.375" name="JEDBContext">
+  <DataContextMoniker Name="/JEDBContextDataContext" />
+  <nestedChildShapes>
+    <classShape Id="98c7b871-5d7d-47c8-a05f-32babcab0458" absoluteBounds="0.75, 0.75, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/JEDBContextDataContext/Address" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b17885d6-33a3-4c22-80b6-c7311e7ab446" absoluteBounds="0.765, 1.21, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="16f4b90e-9e6c-4a30-9c5e-8cc51e6b60f5" absoluteBounds="3.75, 0.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/JEDBContextDataContext/Valuation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fed2cfe6-eba3-4426-92ad-621f434aed2f" absoluteBounds="3.765, 1.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7a7bda7-2e39-442c-b395-5762d98bdb81" absoluteBounds="3.75, 4.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/JEDBContextDataContext/Agreement_Gov" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9bd6621-8efc-4aed-a732-8569e9e937da" absoluteBounds="3.765, 5.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="21450fcc-84ca-454e-b309-931a0a4fad5c" absoluteBounds="6.75, 0.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/JEDBContextDataContext/Agreement_Lease" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f2388aba-fa0a-4e5b-892e-7fbf5123494f" absoluteBounds="6.765, 1.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="15f691ca-7a2a-47c9-a11c-aef0cb79b690" absoluteBounds="6.75, 4.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/JEDBContextDataContext/Changes_To_The_Base_Table" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1904a47a-b271-4a5a-8006-9df418f5b18f" absoluteBounds="6.765, 5.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0f3d16df-9fd8-4e0b-8a3c-5730838bdc9d" absoluteBounds="6.75, 7.75, 2, 3.1170068359375014">
+      <DataClassMoniker Name="/JEDBContextDataContext/Document" />
+      <nestedChildShapes>
+        <elementListCompartment Id="112c9650-56dc-4d47-bef4-c545c2870d23" absoluteBounds="6.765, 8.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="85482536-e75b-43ab-afe4-283925f7acba" absoluteBounds="0.75, 8.75, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/JEDBContextDataContext/Due_Payment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3ac51d4f-b0c0-407a-a03f-4435fe714dc0" absoluteBounds="0.765, 9.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a38f2e12-e347-44ff-980d-09c9e24afed9" absoluteBounds="9.75, 0.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/JEDBContextDataContext/Encroachment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d043861a-ef47-4312-a2c5-69641f3c5229" absoluteBounds="9.765, 1.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2e3e2d23-0e79-4cd3-9f34-e6f872ce9f83" absoluteBounds="9.75, 4.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/JEDBContextDataContext/Estate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a51f3fa9-a17f-4a28-862e-43baa2448451" absoluteBounds="9.765, 5.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="19ab9946-f9d1-46e3-869f-a5e95b0ee4cf" absoluteBounds="9.75, 8.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/JEDBContextDataContext/Lease" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20bdeceb-04b0-4c28-abfc-f0bdb1c0c5c1" absoluteBounds="9.765, 9.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="372d8642-7ba4-4af1-8899-6b84de1948cb" absoluteBounds="3.75, 11.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/JEDBContextDataContext/Leaser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9790d422-c67e-492a-b1d0-b09838c15610" absoluteBounds="3.765, 12.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8ef3ecf6-bc6a-4293-a96c-b3483c1b3a63" absoluteBounds="12.75, 0.75, 2, 1.9631982421875003">
+      <DataClassMoniker Name="/JEDBContextDataContext/Login_Activity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3877e70e-ba4a-4516-b68d-7ab3a1e81f03" absoluteBounds="12.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a3eee7e9-22b8-44f6-a82d-13222baab02c" absoluteBounds="12.75, 3.75, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/JEDBContextDataContext/Payment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d5912bb5-d200-41cd-9f5e-f5d968de59b3" absoluteBounds="12.765, 4.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="65cdbd61-2d68-4593-847d-618bb0ab4402" absoluteBounds="6.75, 12.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/JEDBContextDataContext/Property" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a6b7e80d-5846-4231-98b4-b7281aa040d8" absoluteBounds="6.765, 13.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9c9da15f-b5d6-47f6-a4c0-f32f6d9fe4a6" absoluteBounds="12.75, 7.75, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/JEDBContextDataContext/Reminder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="392ebd66-a2fa-4d21-94b2-6ccdb6be953a" absoluteBounds="12.765, 8.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="86179cff-248c-4f2e-923c-95a32c3b58bb" absoluteBounds="9.75, 12.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/JEDBContextDataContext/System_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2aa378a9-3815-4bbf-8844-af5720ab5446" absoluteBounds="9.765, 13.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e5cb1f63-e3cc-42c4-8b09-6425253ebdf1" absoluteBounds="12.75, 11.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/JEDBContextDataContext/Telephone_Number" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7382ef62-4f66-432e-9df6-45e01f7e88fa" absoluteBounds="12.765, 12.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a52aab6a-38bc-40a5-9159-f2c0fb4cbebc" absoluteBounds="0.75, 14.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/JEDBContextDataContext/Transaction_Change" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fb746f60-25f2-45f9-a261-ee833db50b39" absoluteBounds="0.765, 15.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
