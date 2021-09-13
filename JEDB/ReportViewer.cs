@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CrystalDecisions.CrystalReports.Engine;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,10 @@ namespace JEDB
         public frmReportViewer()
         {
             InitializeComponent();
+            ReportDocument cryRpt = new ReportDocument();
+            cryRpt.Load(@"C:\Users\amila\Desktop\JEDB\JEDB\Reports\DebitNote.rpt");
+            crystalReportViewerJEDB.ReportSource = cryRpt;
+            crystalReportViewerJEDB.Refresh();
         }
     }
 }
