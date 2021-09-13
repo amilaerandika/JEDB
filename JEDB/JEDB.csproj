@@ -167,6 +167,23 @@
     <Compile Include="AddData.Designer.cs">
       <DependentUpon>AddData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data_Access\AddressLogic.cs" />
+    <Compile Include="Data_Access\AgreementGovSave.cs" />
+    <Compile Include="Data_Access\AgreementWithLease.cs" />
+    <Compile Include="Data_Access\DataAccessLogic.cs" />
+    <Compile Include="Data_Access\DocumentsLogic.cs" />
+    <Compile Include="Data_Access\DuePaymentLogic.cs" />
+    <Compile Include="Data_Access\EncroachmentLogic.cs" />
+    <Compile Include="Data_Access\EstateLogic.cs" />
+    <Compile Include="Data_Access\LeaseLogic.cs" />
+    <Compile Include="Data_Access\LeaserLogic.cs" />
+    <Compile Include="Data_Access\LoginActivityLogic.cs" />
+    <Compile Include="Data_Access\PaymentLogic.cs" />
+    <Compile Include="Data_Access\PropertyLogic.cs" />
+    <Compile Include="Data_Access\ReminderLogic.cs" />
+    <Compile Include="Data_Access\SystemUserLogic.cs" />
+    <Compile Include="Data_Access\TelephoneNumbersLogic.cs" />
+    <Compile Include="Data_Access\ValuationLogic.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +195,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>JEDBContext.dbml</DependentUpon>
     </Compile>
+    <Compile Include="Models\AddressDTO.cs" />
+    <Compile Include="Models\AgreementGovDTO.cs" />
+    <Compile Include="Models\AgreementLeaseDTO.cs" />
+    <Compile Include="Models\DocumentDTO.cs" />
+    <Compile Include="Models\DuePaymentDTO.cs" />
+    <Compile Include="Models\EncroachmentDTO.cs" />
+    <Compile Include="Models\EstateDTO.cs" />
+    <Compile Include="Models\LeaseDTO.cs" />
+    <Compile Include="Models\LeaserDTO.cs" />
+    <Compile Include="Models\LoginActivityDTO.cs" />
+    <Compile Include="Models\PaymentDTO.cs" />
+    <Compile Include="Models\PropertyDTO.cs" />
+    <Compile Include="Models\ReminderDTO.cs" />
+    <Compile Include="Models\SystemUserDTO.cs" />
+    <Compile Include="Models\TelephoneNumberDTO.cs" />
+    <Compile Include="Models\ValuationDTO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddData.resx">
@@ -221,10 +254,6 @@
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data_Access\" />
-    <Folder Include="Models\" />
-    <Folder Include="NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
