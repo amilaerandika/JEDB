@@ -304,7 +304,7 @@ namespace JEDB
             this.bunifuImageButton11.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton11.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton11.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton11.Image")));
-            this.bunifuImageButton11.ImageActive = null;
+            this.bunifuImageButton11.ActiveImage = null;
             this.bunifuImageButton11.ImageLocation = null;
             this.bunifuImageButton11.ImageMargin = 0;
             this.bunifuImageButton11.ImageSize = new System.Drawing.Size(20, 20);
@@ -321,7 +321,7 @@ namespace JEDB
             this.bunifuImageButton11.TabIndex = 3;
             this.bunifuImageButton11.ToolTipText = "";
             this.bunifuImageButton11.WaitOnLoad = false;
-            this.bunifuImageButton11.Zoom = 0;
+            this.bunifuImageButton11.ImageMargin = 0;
             this.bunifuImageButton11.ZoomSpeed = 10;
             // 
             // bunifuImageButton12
@@ -339,7 +339,7 @@ namespace JEDB
             this.bunifuImageButton12.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton12.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton12.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton12.Image")));
-            this.bunifuImageButton12.ImageActive = null;
+            this.bunifuImageButton12.ActiveImage = null;
             this.bunifuImageButton12.ImageLocation = null;
             this.bunifuImageButton12.ImageMargin = 0;
             this.bunifuImageButton12.ImageSize = new System.Drawing.Size(20, 20);
@@ -356,7 +356,7 @@ namespace JEDB
             this.bunifuImageButton12.TabIndex = 3;
             this.bunifuImageButton12.ToolTipText = "";
             this.bunifuImageButton12.WaitOnLoad = false;
-            this.bunifuImageButton12.Zoom = 0;
+            this.bunifuImageButton12.ImageMargin = 0;
             this.bunifuImageButton12.ZoomSpeed = 10;
             // 
             // bunifuLabel13
@@ -442,7 +442,7 @@ namespace JEDB
             this.bunifuImageButton9.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton9.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton9.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton9.Image")));
-            this.bunifuImageButton9.ImageActive = null;
+            this.bunifuImageButton9.ActiveImage = null;
             this.bunifuImageButton9.ImageLocation = null;
             this.bunifuImageButton9.ImageMargin = 0;
             this.bunifuImageButton9.ImageSize = new System.Drawing.Size(20, 20);
@@ -459,7 +459,7 @@ namespace JEDB
             this.bunifuImageButton9.TabIndex = 3;
             this.bunifuImageButton9.ToolTipText = "";
             this.bunifuImageButton9.WaitOnLoad = false;
-            this.bunifuImageButton9.Zoom = 0;
+            this.bunifuImageButton9.ImageMargin = 0;
             this.bunifuImageButton9.ZoomSpeed = 10;
             // 
             // bunifuImageButton10
@@ -477,7 +477,7 @@ namespace JEDB
             this.bunifuImageButton10.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton10.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton10.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton10.Image")));
-            this.bunifuImageButton10.ImageActive = null;
+            this.bunifuImageButton10.ActiveImage = null;
             this.bunifuImageButton10.ImageLocation = null;
             this.bunifuImageButton10.ImageMargin = 0;
             this.bunifuImageButton10.ImageSize = new System.Drawing.Size(20, 20);
@@ -494,7 +494,7 @@ namespace JEDB
             this.bunifuImageButton10.TabIndex = 3;
             this.bunifuImageButton10.ToolTipText = "";
             this.bunifuImageButton10.WaitOnLoad = false;
-            this.bunifuImageButton10.Zoom = 0;
+            this.bunifuImageButton10.ImageMargin = 0;
             this.bunifuImageButton10.ZoomSpeed = 10;
             // 
             // bunifuLabel7
@@ -580,7 +580,7 @@ namespace JEDB
             this.bunifuImageButton7.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton7.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton7.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton7.Image")));
-            this.bunifuImageButton7.ImageActive = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton7.ImageActive")));
+            this.bunifuImageButton7.ActiveImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton7.ActiveImage")));
             this.bunifuImageButton7.ImageLocation = null;
             this.bunifuImageButton7.ImageMargin = 0;
             this.bunifuImageButton7.ImageSize = new System.Drawing.Size(20, 20);
@@ -597,7 +597,7 @@ namespace JEDB
             this.bunifuImageButton7.TabIndex = 3;
             this.bunifuImageButton7.ToolTipText = "";
             this.bunifuImageButton7.WaitOnLoad = false;
-            this.bunifuImageButton7.Zoom = 0;
+            this.bunifuImageButton7.ImageMargin = 0;
             this.bunifuImageButton7.ZoomSpeed = 10;
             // 
             // bunifuImageButton8
@@ -615,7 +615,7 @@ namespace JEDB
             this.bunifuImageButton8.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton8.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton8.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton8.Image")));
-            this.bunifuImageButton8.ImageActive = null;
+            this.bunifuImageButton8.ActiveImage = null;
             this.bunifuImageButton8.ImageLocation = null;
             this.bunifuImageButton8.ImageMargin = 0;
             this.bunifuImageButton8.ImageSize = new System.Drawing.Size(20, 20);
@@ -632,7 +632,7 @@ namespace JEDB
             this.bunifuImageButton8.TabIndex = 3;
             this.bunifuImageButton8.ToolTipText = "";
             this.bunifuImageButton8.WaitOnLoad = false;
-            this.bunifuImageButton8.Zoom = 0;
+            this.bunifuImageButton8.ImageMargin = 0;
             this.bunifuImageButton8.ZoomSpeed = 10;
             // 
             // bunifuLabel4
@@ -1295,7 +1295,7 @@ namespace JEDB
             this.bunifuImageButton2.FadeWhenInactive = false;
             this.bunifuImageButton2.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
-            this.bunifuImageButton2.ImageActive = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.ImageActive")));
+            this.bunifuImageButton2.ActiveImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.ActiveImage")));
             this.bunifuImageButton2.ImageLocation = null;
             this.bunifuImageButton2.ImageMargin = 20;
             this.bunifuImageButton2.ImageSize = new System.Drawing.Size(40, 40);
@@ -1312,7 +1312,7 @@ namespace JEDB
             this.bunifuImageButton2.TabIndex = 0;
             this.bunifuImageButton2.ToolTipText = "";
             this.bunifuImageButton2.WaitOnLoad = false;
-            this.bunifuImageButton2.Zoom = 20;
+            this.bunifuImageButton2.ImageMargin = 20;
             this.bunifuImageButton2.ZoomSpeed = 10;
             this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
             // 
@@ -1363,7 +1363,7 @@ namespace JEDB
             this.bunifuImageButton1.FadeWhenInactive = false;
             this.bunifuImageButton1.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
-            this.bunifuImageButton1.ImageActive = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.ImageActive")));
+            this.bunifuImageButton1.ActiveImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.ActiveImage")));
             this.bunifuImageButton1.ImageLocation = null;
             this.bunifuImageButton1.ImageMargin = 20;
             this.bunifuImageButton1.ImageSize = new System.Drawing.Size(40, 40);
@@ -1380,7 +1380,7 @@ namespace JEDB
             this.bunifuImageButton1.TabIndex = 0;
             this.bunifuImageButton1.ToolTipText = "";
             this.bunifuImageButton1.WaitOnLoad = false;
-            this.bunifuImageButton1.Zoom = 20;
+            this.bunifuImageButton1.ImageMargin = 20;
             this.bunifuImageButton1.ZoomSpeed = 10;
             this.bunifuImageButton1.Click += new System.EventHandler(this.bunifuImageButton1_Click);
             // 
@@ -1429,7 +1429,7 @@ namespace JEDB
             this.bunifuImageButton4.FadeWhenInactive = false;
             this.bunifuImageButton4.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton4.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton4.Image")));
-            this.bunifuImageButton4.ImageActive = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton4.ImageActive")));
+            this.bunifuImageButton4.ActiveImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton4.ActiveImage")));
             this.bunifuImageButton4.ImageLocation = null;
             this.bunifuImageButton4.ImageMargin = 20;
             this.bunifuImageButton4.ImageSize = new System.Drawing.Size(40, 40);
@@ -1446,7 +1446,7 @@ namespace JEDB
             this.bunifuImageButton4.TabIndex = 0;
             this.bunifuImageButton4.ToolTipText = "";
             this.bunifuImageButton4.WaitOnLoad = false;
-            this.bunifuImageButton4.Zoom = 20;
+            this.bunifuImageButton4.ImageMargin = 20;
             this.bunifuImageButton4.ZoomSpeed = 10;
             this.bunifuImageButton4.Click += new System.EventHandler(this.bunifuImageButton4_Click);
             // 
@@ -1495,7 +1495,7 @@ namespace JEDB
             this.bunifuImageButton3.FadeWhenInactive = false;
             this.bunifuImageButton3.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.Image")));
-            this.bunifuImageButton3.ImageActive = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.ImageActive")));
+            this.bunifuImageButton3.ActiveImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton3.ActiveImage")));
             this.bunifuImageButton3.ImageLocation = null;
             this.bunifuImageButton3.ImageMargin = 20;
             this.bunifuImageButton3.ImageSize = new System.Drawing.Size(40, 40);
@@ -1512,7 +1512,7 @@ namespace JEDB
             this.bunifuImageButton3.TabIndex = 0;
             this.bunifuImageButton3.ToolTipText = "";
             this.bunifuImageButton3.WaitOnLoad = false;
-            this.bunifuImageButton3.Zoom = 20;
+            this.bunifuImageButton3.ImageMargin = 20;
             this.bunifuImageButton3.ZoomSpeed = 10;
             this.bunifuImageButton3.Click += new System.EventHandler(this.bunifuImageButton3_Click);
             // 
@@ -1698,7 +1698,7 @@ namespace JEDB
             this.bunifuImageButton5.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton5.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton5.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton5.Image")));
-            this.bunifuImageButton5.ImageActive = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton5.ImageActive")));
+            this.bunifuImageButton5.ActiveImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton5.ActiveImage")));
             this.bunifuImageButton5.ImageLocation = null;
             this.bunifuImageButton5.ImageMargin = 0;
             this.bunifuImageButton5.ImageSize = new System.Drawing.Size(20, 20);
@@ -1715,7 +1715,7 @@ namespace JEDB
             this.bunifuImageButton5.TabIndex = 3;
             this.bunifuImageButton5.ToolTipText = "";
             this.bunifuImageButton5.WaitOnLoad = false;
-            this.bunifuImageButton5.Zoom = 0;
+            this.bunifuImageButton5.ImageMargin = 0;
             this.bunifuImageButton5.ZoomSpeed = 10;
             // 
             // bunifuImageButton6
@@ -1733,7 +1733,7 @@ namespace JEDB
             this.bunifuImageButton6.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton6.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton6.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton6.Image")));
-            this.bunifuImageButton6.ImageActive = null;
+            this.bunifuImageButton6.ActiveImage = null;
             this.bunifuImageButton6.ImageLocation = null;
             this.bunifuImageButton6.ImageMargin = 0;
             this.bunifuImageButton6.ImageSize = new System.Drawing.Size(20, 20);
@@ -1750,7 +1750,7 @@ namespace JEDB
             this.bunifuImageButton6.TabIndex = 3;
             this.bunifuImageButton6.ToolTipText = "";
             this.bunifuImageButton6.WaitOnLoad = false;
-            this.bunifuImageButton6.Zoom = 0;
+            this.bunifuImageButton6.ImageMargin = 0;
             this.bunifuImageButton6.ZoomSpeed = 10;
             // 
             // bunifuLabel8
@@ -1861,7 +1861,7 @@ namespace JEDB
             this.bunifuImageButton16.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton16.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton16.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton16.Image")));
-            this.bunifuImageButton16.ImageActive = null;
+            this.bunifuImageButton16.ActiveImage = null;
             this.bunifuImageButton16.ImageLocation = null;
             this.bunifuImageButton16.ImageMargin = 0;
             this.bunifuImageButton16.ImageSize = new System.Drawing.Size(20, 20);
@@ -1878,7 +1878,7 @@ namespace JEDB
             this.bunifuImageButton16.TabIndex = 3;
             this.bunifuImageButton16.ToolTipText = "";
             this.bunifuImageButton16.WaitOnLoad = false;
-            this.bunifuImageButton16.Zoom = 0;
+            this.bunifuImageButton16.ImageMargin = 0;
             this.bunifuImageButton16.ZoomSpeed = 10;
             // 
             // bunifuPanel20
@@ -1918,7 +1918,7 @@ namespace JEDB
             this.bunifuImageButton18.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton18.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton18.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton18.Image")));
-            this.bunifuImageButton18.ImageActive = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton18.ImageActive")));
+            this.bunifuImageButton18.ActiveImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton18.ActiveImage")));
             this.bunifuImageButton18.ImageLocation = null;
             this.bunifuImageButton18.ImageMargin = 0;
             this.bunifuImageButton18.ImageSize = new System.Drawing.Size(20, 20);
@@ -1935,7 +1935,7 @@ namespace JEDB
             this.bunifuImageButton18.TabIndex = 3;
             this.bunifuImageButton18.ToolTipText = "";
             this.bunifuImageButton18.WaitOnLoad = false;
-            this.bunifuImageButton18.Zoom = 0;
+            this.bunifuImageButton18.ImageMargin = 0;
             this.bunifuImageButton18.ZoomSpeed = 10;
             // 
             // bunifuImageButton19
@@ -1953,7 +1953,7 @@ namespace JEDB
             this.bunifuImageButton19.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton19.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton19.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton19.Image")));
-            this.bunifuImageButton19.ImageActive = null;
+            this.bunifuImageButton19.ActiveImage = null;
             this.bunifuImageButton19.ImageLocation = null;
             this.bunifuImageButton19.ImageMargin = 0;
             this.bunifuImageButton19.ImageSize = new System.Drawing.Size(20, 20);
@@ -1970,7 +1970,7 @@ namespace JEDB
             this.bunifuImageButton19.TabIndex = 3;
             this.bunifuImageButton19.ToolTipText = "";
             this.bunifuImageButton19.WaitOnLoad = false;
-            this.bunifuImageButton19.Zoom = 0;
+            this.bunifuImageButton19.ImageMargin = 0;
             this.bunifuImageButton19.ZoomSpeed = 10;
             // 
             // bunifuLabel22
@@ -2056,7 +2056,7 @@ namespace JEDB
             this.bunifuImageButton13.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton13.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton13.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton13.Image")));
-            this.bunifuImageButton13.ImageActive = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton13.ImageActive")));
+            this.bunifuImageButton13.ActiveImage = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton13.ActiveImage")));
             this.bunifuImageButton13.ImageLocation = null;
             this.bunifuImageButton13.ImageMargin = 0;
             this.bunifuImageButton13.ImageSize = new System.Drawing.Size(20, 20);
@@ -2073,7 +2073,7 @@ namespace JEDB
             this.bunifuImageButton13.TabIndex = 3;
             this.bunifuImageButton13.ToolTipText = "";
             this.bunifuImageButton13.WaitOnLoad = false;
-            this.bunifuImageButton13.Zoom = 0;
+            this.bunifuImageButton13.ImageMargin = 0;
             this.bunifuImageButton13.ZoomSpeed = 10;
             // 
             // bunifuImageButton14
@@ -2091,7 +2091,7 @@ namespace JEDB
             this.bunifuImageButton14.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
             this.bunifuImageButton14.ForeColor = System.Drawing.Color.Transparent;
             this.bunifuImageButton14.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton14.Image")));
-            this.bunifuImageButton14.ImageActive = null;
+            this.bunifuImageButton14.ActiveImage = null;
             this.bunifuImageButton14.ImageLocation = null;
             this.bunifuImageButton14.ImageMargin = 0;
             this.bunifuImageButton14.ImageSize = new System.Drawing.Size(20, 20);
@@ -2108,7 +2108,7 @@ namespace JEDB
             this.bunifuImageButton14.TabIndex = 3;
             this.bunifuImageButton14.ToolTipText = "";
             this.bunifuImageButton14.WaitOnLoad = false;
-            this.bunifuImageButton14.Zoom = 0;
+            this.bunifuImageButton14.ImageMargin = 0;
             this.bunifuImageButton14.ZoomSpeed = 10;
             // 
             // bunifuLabel16

@@ -51,7 +51,8 @@ namespace JEDB
 
         private void bunifuImageButton4_Click(object sender, EventArgs e)
         {
-            bunifuPages1.SetPage("tabPage8");
+            frmReportViewer frmReportViewer = new frmReportViewer();
+            frmReportViewer.Show();
         }
 
         private void bunifuImageButton3_Click(object sender, EventArgs e)
