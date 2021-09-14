@@ -29,6 +29,7 @@ namespace JEDB
             string reportPath = GetReportPath.GetReportPathFromDB();
             ReportDocument cryRpt = new ReportDocument();
             cryRpt.Load(@reportPath + _reportName);
+            cryRpt.SetDatabaseLogon("sa", "1324");
             crystalReportViewerJEDB.ReportSource = cryRpt;
             crystalReportViewerJEDB.Refresh();
         }
