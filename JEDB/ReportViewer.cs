@@ -27,10 +27,16 @@ namespace JEDB
         private void LoadReport()
         {
             string reportPath = GetReportPath.GetReportPathFromDB();
+            List<string> userData = GetReportPath.GetUserNamePassword();
+
             ReportDocument cryRpt = new ReportDocument();
+            
             cryRpt.Load(@reportPath + _reportName);
-            cryRpt.SetDatabaseLogon("sa", "1324");
+
+            cryRpt.SetDatabaseLogon(userData[0], userData[1]);
+
             crystalReportViewerJEDB.ReportSource = cryRpt;
+
             crystalReportViewerJEDB.Refresh();
         }
     }
